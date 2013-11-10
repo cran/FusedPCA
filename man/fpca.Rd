@@ -62,6 +62,18 @@ the final estimator of the community labels according to the normalised cut crit
   \item{normalised.location}{
 the location of the chosen estimator on the path according to the normalised cut criterion.
 }
+  \item{final.mod.dcbm.cluster}{
+the final estimator of the community labels according to the modularity criterion based on the DCBM assumption.
+}
+  \item{mod.dcbm.location}{
+the location of the chosen estimator on the path according to the modularity criterion based on the DCBM assumption.
+}
+  \item{final.mod.sbm.cluster}{
+the final estimator of the community labels according to the modularity criterion based on the SBM assumption.
+}
+  \item{mod.sbm.location}{
+the location of the chosen estimator on the path according to the modularity criterion based on the SBM assumption.
+}
   \item{final.whole}{
 a matrix if \code{K = 2} and an array if \code{K > 2}, which is the estimators of the fused loadings estimators along the path. The matrix is of dimension number of the non-isolated nodes x steps on the path. The array is of dimension number of the non-isolated nodes x steps on the path x (K - 1). If \code{score = T}, the estimators are the ratio of eigenvectors.
 }

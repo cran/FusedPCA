@@ -1,1 +1,1 @@
-export(fpca.cluster, fpca.cut, fpca.nonscore.cluster, fpca.nonscore, fpca, fpca.score.cluster, fpca.score, fpca.start, fused.trans, gen.cr, gen.dcbm, gen.sbm, get.cluster, isolate, laplacian, single.cut)
+export(fpca.cluster, fpca.cut, fpca.mod, fpca.nonscore.cluster, fpca.nonscore, fpca, fpca.score.cluster, fpca.score, fpca.start, fused.trans, gen.cr, gen.dcbm, gen.sbm, get.cluster, isolate, laplacian, single.cut, single.mod)
